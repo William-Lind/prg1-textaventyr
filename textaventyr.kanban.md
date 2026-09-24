@@ -6,10 +6,6 @@
 
 ## To Do
 
-#### Skriv berättelsen
-<!-- id: task-1789371029039-86 -->
-<!-- priority: critical -->
-
 #### f-strängar
 <!-- id: task-1789370290018-5 -->
 spelarens namn används i minst tre print()-satser
@@ -32,12 +28,16 @@ vid normala inmatningar. Om du vill så kan du använda mönstret valideraren fr
 
 ## In Progress
 
-#### Spelarnamn
-<!-- id: task-1789370256358-0 -->
-programmet frågar efter spelarens namn och lagrar det i en variabel
+#### Skriv berättelsen
+<!-- id: task-1789371029039-86 -->
+<!-- priority: critical -->
 
 ## Done
 
 #### Klona repot
 <!-- id: task-1789371224632-115 -->
 Klona / forka repot och börja sedan jobba med materialet
+
+#### Spelarnamn
+<!-- id: task-1789370256358-0 -->
+programmet frågar efter spelarens namn och lagrar det i en variabel
