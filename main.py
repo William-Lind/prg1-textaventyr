@@ -394,7 +394,7 @@ else:
                             else:
                                 print("välj ja eller nej")
                                 while True:
-                                    slutet = input("ja eller nej ")
+                                    slutet = input("Gillade du dpelet? ja eller nej ")
                                         
                                     if slutet.lower() == "ja":
                                         print("Kul att du gillade spelet! Försök att hitta alla slut?")
@@ -431,4 +431,4 @@ else:
                                         print("Välj ja eller nej")    
                                         break
         else:
-            print("Välj Ica eller Coop")             
+            print("idk gör vad du vill")

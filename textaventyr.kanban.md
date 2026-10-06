@@ -6,22 +6,22 @@
 
 ## To Do
 
-#### Korrekt stavning
-<!-- id: task-1790847866726-192 -->
-Se till att allt är rätt stavat.
-<!-- priority: low -->
-
 ## In Progress
-
-#### Inga kraschar
-<!-- id: task-1789370399886-49 -->
-vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
 
 ## Done
 
 #### Skriv berättelsen
 <!-- id: task-1789371029039-86 -->
 <!-- priority: critical -->
+
+#### Korrekt stavning
+<!-- id: task-1790847866726-192 -->
+Se till att allt är rätt stavat.
+<!-- priority: low -->
+
+#### Inga kraschar
+<!-- id: task-1789370399886-49 -->
+vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
 
 #### f-strängar
 <!-- id: task-1789370290018-5 -->
