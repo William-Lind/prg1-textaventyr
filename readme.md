@@ -20,12 +20,19 @@ Uppgiften är av programmeringskaraktär, men du behöver också göra planering
 
 ## Vad berättelsen handlar om
 
-En eller två meningar.
+En eller två meningar. 
+Berättelsen handlar om att man ska handla åt sin mormor fast världen är väldigt ond så man kan bli stoppad av många olika saker.
 
 ## Vägvalen
 
-Vilka val spelaren gör, och vart de leder.
+Vilka val spelaren gör, och vart de leder. 
+Man kan gå till ica eller coop. Ica kommer alltid att leda till en säker död medans coop har ett sätt att överleva.
+Det finns val som att ta snabbkasssan eller stå i kö.
+Eller om man vill slåss mot en karen eller föröka fly.
+
 
 ## Det som var svårast
+looparna ville inte loopa som jag ville så dom fick jag konstant jobba på. 
 
 ## Om jag hade mer tid
+Om jag skulle haft mer tid så skulle jag fixa looparna helt och hållet för att de är fortfarande speciella.
