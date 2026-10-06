@@ -15,7 +15,7 @@ if destination.lower() == "ica":
 
     if viktigt_val.lower() == "ja":
         print("Du handlar åt mormor och köper ut energidicka åt 7 klassarna tyvärr så blir du polisanmäld av Anna Karin och blir sen arresterad av snuten. Du förlorade spelet")
-        slutet = input("ja eller nej")
+        slutet = input("Gillade du spelet? ja eller nej")
 
         if slutet.lower() == "ja":
                         print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
@@ -24,7 +24,7 @@ if destination.lower() == "ica":
         else:
             print("välj ja eller nej")
             while True:
-                slutet = input("ja eller nej ")
+                slutet = input("Gillade du spelet? ja eller nej ")
                     
                 if slutet.lower() == "ja":
                     print("Kul att du gillade spelet! Försök att hitta alla slut?")
@@ -46,7 +46,7 @@ if destination.lower() == "ica":
         else:
             print("välj ja eller nej")
             while True:
-                slutet = input("ja eller nej ")
+                slutet = input("Gillade du spelet? ja eller nej ")
                 if slutet.lower() == "ja":
                     print("Kul att du gillade spelet! Försök att hitta alla slut?")
                     break                   
@@ -90,13 +90,13 @@ if destination.lower() == "ica":
 elif destination.lower() == "coop":
     print("Du går till Coop")
 
-    print("När du kommer till Coop så finns det en lång kö med pensionärer som håller på att handla så du får antingen vänta i en kö jätte länge eller så får du ta snabbkassan.)")
+    print("När du kommer till Coop så finns det en lång kö med pensionärer som håller på att handla så du får antingen vänta i en kö jätte länge eller så får du ta snabbkassan.")
 
-    the_way = input("Tar du snabbkassan eller kön?")
+    the_way = input("Tar du snabbkassan eller kön? ")
 
     if the_way.lower() == "snabbkassan":
         print("Någon 7 klassare hade mixtrad med fel sladdarna i snabbkassan så den exploderade och du dog. Du förlorade spelet")
-        slutet = input("gillade du spelet? ja eller nej")
+        slutet = input("gillade du spelet? ja eller nej ")
 
         if slutet.lower() == "ja":
                         print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
@@ -124,7 +124,7 @@ elif destination.lower() == "coop":
         anna_karin = input("fly eller slåss? ")
         if anna_karin.lower() == "fly":
             print("Du springer undan med mormors varor du överlever och din mormor blir glad att du handlade åt hon. Du vann grattis!")
-            slutet = input("ja eller nej")
+            slutet = input("ja eller nej ")
 
             if slutet.lower() == "ja":
                             print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
@@ -146,7 +146,7 @@ elif destination.lower() == "coop":
         elif anna_karin.lower() == "slåss":
             print("Anna-Karin lägger sig på marken och rullar runt och säger att du slog hon en polis i närheten ser detta och skjuter dig på stället för att du Anna Karin var så trovärdig. Du förlorade")
                 
-            slutet = input("ja eller nej")
+            slutet = input("Gillade du spelet? ja eller nej ")
 
             if slutet.lower() == "ja":
                 print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
@@ -155,7 +155,7 @@ elif destination.lower() == "coop":
             else:
                 print("välj ja eller nej")
                 while True:
-                    slutet = input("ja eller nej ")
+                    slutet = input("Gillade du spelet? ja eller nej ")
                             
                     if slutet.lower() == "ja":
                         print("Kul att du gillade spelet! Försök att hitta alla slut?")
@@ -196,7 +196,7 @@ elif destination.lower() == "coop":
                     print("Anna-Karin lägger sig på marken och rullar runt och säger att du slog hon en polis i närheten ser detta och skjuter dig på stället för att du Anna Karin var så trovärdig. Du förlorade")
                     print(f"gillade du spelet {namn}?")
 
-                    slutet = input("ja eller nej?")
+                    slutet = input("ja eller nej? ")
 
                     if slutet.lower() == "ja":
                         print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
@@ -209,7 +209,7 @@ elif destination.lower() == "coop":
                             print("välj ja eller nej")
                             slutet = input("ja eller nej")
                             if slutet.lower() == "ja":
-                                print("")
+                                print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
                                 break
                             elif slutet.lower() == "nej":
                                 print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
@@ -222,9 +222,213 @@ else:
         destination = input("Vart vill du gå Ica eller Coop?")
         if destination.lower() == "ica":
             print("Du går till Ica")
-            break
+            
+            print("När du kommer fram till Ica så finns det ett gäng med 7 klassare som vill att du ska köpa ut energidicka åt dom. Kommer du göra det eller inte?")
+            viktigt_val = input("Ja eller Nej?")
+
+            if viktigt_val.lower() == "ja":
+                print("Du handlar åt mormor och köper ut energidicka åt 7 klassarna tyvärr så blir du polisanmäld av Anna Karin och blir sen arresterad av snuten. Du förlorade spelet")
+                slutet = input("ja eller nej")
+
+                if slutet.lower() == "ja":
+                                print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                elif slutet.lower() == "nej":
+                                print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                else:
+                    print("välj ja eller nej")
+                    while True:
+                        slutet = input("ja eller nej ")
+                            
+                        if slutet.lower() == "ja":
+                            print("Kul att du gillade spelet! Försök att hitta alla slut?")
+                            break                   
+                        elif slutet.lower() == "nej":
+                            print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                            break
+                        else:
+                            print("välj ja eller nej ")  
+            elif viktigt_val.lower() == "nej":
+                print("7 klassarna blir sura på dig de slår ner dig och rånar dig. Du förlorade")
+                
+                slutet = input("ja eller nej")
+
+                if slutet.lower() == "ja":
+                    print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                elif slutet.lower() == "nej":
+                    print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                else:
+                    print("välj ja eller nej")
+                    while True:
+                        slutet = input("ja eller nej ")
+                        if slutet.lower() == "ja":
+                            print("Kul att du gillade spelet! Försök att hitta alla slut?")
+                            break                   
+                        elif slutet.lower() == "nej":
+                            print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                            break
+                        else:
+                            print("välj ja eller nej ")  
+            else:
+                print("Välj Ja eller Nej")
+                while True:
+                    viktigt_val = input("Ja eller Nej?")
+                    if viktigt_val.lower() == "ja":
+                        print("Du handlar åt mormor och köper ut energidicka åt 7 klassarna tyvärr så blir du polisanmäld av Anna Karin och blir sen arresterad av snuten. Du förlorade spelet")
+                        break
+                    elif viktigt_val.lower() == "nej":
+                        print("7 klassarna blir sura på dig de slår ner dig och rånar dig. Du förlorade")
+                        print(f"gillade du spelet {namn}")
+
+                        slutet = input("ja eller nej")
+
+                        if slutet.lower() == "ja":
+                            print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                        elif slutet.lower() == "nej":
+                            print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                        else:
+                            print("välj ja eller nej")
+                            while True:
+                                slutet = input("ja eller nej ")
+                                if slutet.lower() == "ja":
+                                    print("Kul att du gillade spelet! Försök att hitta alla slut?")
+                                    break                   
+                                elif slutet.lower() == "nej":
+                                    print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                                    break
+                                else:
+                                    print("välj ja eller nej ")                       
+                        break
+                    else:
+                        print("Välj Ja eller Nej")   
+                    break
         elif destination.lower() == "coop":
             print("Du går till Coop")
-            break
+            print("När du kommer till Coop så finns det en lång kö med pensionärer som håller på att handla så du får antingen vänta i en kö jätte länge eller så får du ta snabbkassan.")
+
+            the_way = input("Tar du snabbkassan eller kön? ")
+
+            if the_way.lower() == "snabbkassan":
+                print("Någon 7 klassare hade mixtrad med fel sladdarna i snabbkassan så den exploderade och du dog. Du förlorade spelet")
+                slutet = input("gillade du spelet? ja eller nej ")
+
+                if slutet.lower() == "ja":
+                                print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                elif slutet.lower() == "nej":
+                                print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                else:
+                    print("välj ja eller nej")
+                    while True:
+                        slutet = input("ja eller nej ")
+                            
+                        if slutet.lower() == "ja":
+                            print("Kul att du gillade spelet! Försök att hitta alla slut?")
+                            break                   
+                        elif slutet.lower() == "nej":
+                            print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                            break
+                        else:
+                            print("välj ja eller nej ")  
+
+            elif the_way.lower() == "kön":
+                print("Kön är så långsam så att pensionärerna börja dö av ålder men du kan överlever vänt tiden för att du är så mycket yngre.")
+
+                print("När du kommer ut ur Coop så ser du Final bossen Anna-Karin hon är en Karen som vill att du ska dö. Du måste välja om du ska fly eller slåss mot henne.")
+
+                anna_karin = input("fly eller slåss? ")
+                if anna_karin.lower() == "fly":
+                    print("Du springer undan med mormors varor du överlever och din mormor blir glad att du handlade åt hon. Du vann grattis!")
+                    slutet = input("ja eller nej ")
+
+                    if slutet.lower() == "ja":
+                                    print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                    elif slutet.lower() == "nej":
+                                    print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                    else:
+                        print("välj ja eller nej")
+                        while True:
+                            slutet = input("ja eller nej ")
+                                
+                            if slutet.lower() == "ja":
+                                print("Kul att du gillade spelet! Försök att hitta alla slut?")
+                                break                   
+                            elif slutet.lower() == "nej":
+                                print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                                break
+                            else:
+                                print("välj ja eller nej ")
+                elif anna_karin.lower() == "slåss":
+                    print("Anna-Karin lägger sig på marken och rullar runt och säger att du slog hon en polis i närheten ser detta och skjuter dig på stället för att du Anna Karin var så trovärdig. Du förlorade")
+                        
+                    slutet = input("Gillade du spelet? ja eller nej ")
+
+                    if slutet.lower() == "ja":
+                        print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                    elif slutet.lower() == "nej":
+                        print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                    else:
+                        print("välj ja eller nej")
+                        while True:
+                            slutet = input("Gillade du spelet? ja eller nej ")
+                                    
+                            if slutet.lower() == "ja":
+                                print("Kul att du gillade spelet! Försök att hitta alla slut?")
+                                break                   
+                            elif slutet.lower() == "nej":
+                                print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                                break
+                            else:
+                                print("välj ja eller nej ")  
+
+                else:
+                    print("Välj fly eller slåss")
+                    while True:
+                        anna_karin = input("fly eller slåss? ")
+                        if anna_karin.lower() == "fly":
+                            print("Du springer undan med mormors varor du överlever och din mormor blir glad att du handlade åt hon. Du vann grattis!") 
+                            slutet = input("gillade du spelet? ja eller nej")
+
+                            if slutet.lower() == "ja":
+                                            print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                            elif slutet.lower() == "nej":
+                                            print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                            else:
+                                print("välj ja eller nej")
+                                while True:
+                                    slutet = input("ja eller nej ")
+                                        
+                                    if slutet.lower() == "ja":
+                                        print("Kul att du gillade spelet! Försök att hitta alla slut?")
+                                        break                   
+                                    elif slutet.lower() == "nej":
+                                        print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                                        break
+                                    else:
+                                        print("välj ja eller nej ")                 
+                                        
+                        elif anna_karin.lower() == "slåss":
+                            print("Anna-Karin lägger sig på marken och rullar runt och säger att du slog hon en polis i närheten ser detta och skjuter dig på stället för att du Anna Karin var så trovärdig. Du förlorade")
+                            print(f"gillade du spelet {namn}?")
+
+                            slutet = input("ja eller nej? ")
+
+                            if slutet.lower() == "ja":
+                                print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                            elif slutet.lower() == "nej":
+                                print(f"Grattis du super förlorade spelet och mormor blev ledsen på dig {namn}!")
+                                break
+                            else:
+                                print("Välj fly eller slåss") 
+                                while True:
+                                    print("välj ja eller nej")
+                                    slutet = input("ja eller nej")
+                                    if slutet.lower() == "ja":
+                                        print("Vad kul att du gillade spelet! Försök att hitta alla slut?")
+                                        break
+                                    elif slutet.lower() == "nej":
+                                        print(f"Grattis du super förlorade spelet och mormor blev besviken på dig {namn}!")
+                                        break
+                                    else:
+                                        print("Välj ja eller nej")    
+                                        break
         else:
-            print("Välj Ica eller Coop")
+            print("Välj Ica eller Coop")             
